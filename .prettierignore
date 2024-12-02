@@ -1,0 +1,15 @@
+.DS_Store
+*.local
+*.log*
+
+.git/
+.idea/
+.vscode/
+
+node_modules/
+
+dist/
+build/
+target/
+
+package-lock.json

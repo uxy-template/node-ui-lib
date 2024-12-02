@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2021", "dom"],
+    "module": "ESNext",
+
+    /* solid jsx */
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    /* path alias */
+    "paths": {
+      "@*": ["./src/*"]
+    },
+
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src"]
+}
